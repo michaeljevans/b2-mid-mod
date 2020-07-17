@@ -7,11 +7,11 @@ This repository requires and has been tested on Ruby v2.5.3 and is based on Rail
 RSpec and Shoulda-Matchers have been installed and set up.
 
 
-## Setup 
-1. fork this repo 
-2. clone your fork 
+## Setup
+1. fork this repo
+2. clone your fork
 3. `git clone <paste_repo>`
 4. `cd b2-mid-mod`
-5. `bundle install` 
+5. `bundle install`
 
-When you run `bundle exec rspec` you should have 0 tests. 
+When you run `bundle exec rspec` you should have 0 tests.
