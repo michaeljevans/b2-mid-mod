@@ -1,7 +1,8 @@
 <h1><%= @park.name %></h1>
-
+<hr>
 <p>Price of Admission: $<%= @park.admission_price %></p>
-
+<br>
+<p>Available Rides:</p>
 <section class='rides'>
   <ul style='list-style-type:none;'>
     <% @park.sort_rides_alphabetically.each do |ride| %>
@@ -9,5 +10,5 @@
     <% end %>
   </ul>
 </section>
-
+<br>
 <p>Average Thrill Rating: <%= @park.average_thrill_rating_for_all_rides.round(2) %>/10</p>
